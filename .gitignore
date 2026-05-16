@@ -1,0 +1,10 @@
+# Dependencies (always reinstall locally)
+node_modules/
+
+# Environment variables (never commit secrets)
+.env
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+*.log
