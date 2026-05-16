@@ -1,0 +1,22 @@
+{
+  "name": "todo",
+  "version": "1.0.0",
+  "description": "basic todo crud app for learning mern.",
+  "main": "src/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naomansaeed/todo.git"
+  },
+  "author": "naoman saeed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naomansaeed/todo/issues"
+  },
+  "homepage": "https://github.com/naomansaeed/todo#readme"
+}
