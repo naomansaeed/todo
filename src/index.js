@@ -20,6 +20,12 @@ const server = http.createServer((req,res) => {
             data: []
         }));
     }
+    else if (req.method === 'GET' && url.pathname === '/') {
+        res.end(JSON.stringify({
+            api: 'Todo api v1',
+            endpoints: {'GET /todos': 'List all todos'}
+        }));
+    }
     else{
         res.statusCode = 404;
         res.end(JSON.stringify({
